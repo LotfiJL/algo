@@ -1,0 +1,24 @@
+ALGORITHM checkpoint
+VAR
+    p: STRING;
+    nv,nc,nm : INTEGER;
+    nv:=0;nm:=0 nc:=0;
+    c: CHAR= "";
+
+BEGIN
+    while(c!=".") DO
+    read(c);
+         nc++;
+         if (c="a" or "e" or "y" or i="i") THEN
+         nv++;
+         END if;
+         if (c=" "):
+         nm++;
+        END if
+    ENd while
+    write("nombre de caractere est "; nc);
+    write("nombre de voyelle est "; nv);
+    write("nombre de mots est "; nm);
+
+
+END
